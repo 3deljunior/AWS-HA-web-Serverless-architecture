@@ -3,7 +3,7 @@
 ## 📌 Project Summary
 I designed and manually provisioned this multi-tier cloud architecture from scratch in the AWS **Frankfurt** region. The project features a Dockerized Python Flask web application deployed via `Amazon ECR` across a private `Auto Scaling group`, backed by a Multi-AZ `Amazon RDS` database and an event-driven AWS `Lambda` pipeline that automatically applies an image `Filter` to files uploaded to Amazon S3.
 
-![Architecture Diagram](./assets/architecture-diagram.png)
+![Architecture Diagram](./assets/architecture-diagram.jpeg)
 
 ---
 
